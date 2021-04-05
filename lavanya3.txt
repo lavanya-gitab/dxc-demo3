@@ -1,0 +1,51 @@
+Test Strategy:Steps(ITDS)
+
+
+1)Assess Testability :-
+
+    a)operability:4
+    b)controllability:5
+    c)observability:5
+    d)simplicity:3
+    e)undestandability:5
+    f)suitabilty:5
+    g)Stability:5
+
+2)Test Factors : 
+
+     a)Authorization:- Integration Testing
+     b)Correctness:- Integration Testing
+     c)Access control:- System testing
+     d)Reliabilty:- uat
+     e)Performance:- system testing
+     f)Integrity:- system testing
+     g)Continuity of processing:-  post UAT
+
+
+3)Assess drivers that would influence testing/approach :-
+
+
+      a)Authorization --->Integration testing --->tester(Quality analyst)/validation/blackbox
+      b)Correctness ---> Integration testing --->tester/validation/blackbox/dynamic
+      c)Access control ---> system testing --->tester/verification/blackbox
+      e)Reliabilty ---> to what extent we trust ---> uat(client/customer)
+      f)performance ---> system ---> tester
+      g)integrity ---> system testing ---> tester
+      h)continuity of processing ---> post UAT---> client
+
+
+
+Test plan:
+
+
+   1)Test item:- Application name
+   2)Software risk issues:- Security,performance
+   3)Features to be tested(user stories):- Register users,manager and member function,Admin Funtions
+   4)Features not to be tested:- new version(which is not a scope)
+   5)Approach:- Whitebox,  blackbox(It contains code and UI)
+   6)Test deliverables:- source code,Test scenario,test plan,test case,test execution report,test report,defect report
+   7)Item pass/fail criteria:- If i find 5 minor bugs,1 major bug,with no critical/shoew stopper in this case (pass)
+   8)Suspension&resumption criteria:- Show stooper in application/non-availabilty of resouce/when this is resolved
+  9)Responsibility:- project manager,TEST LEAD,TESTER,CUSTOMER
+  10)Staffing and testing needs:- Testing needs
+  11)Schedule:- 2 weeks
